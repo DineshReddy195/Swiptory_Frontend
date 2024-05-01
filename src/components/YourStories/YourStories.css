@@ -1,0 +1,60 @@
+.my-story-categoryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .my-story-categoryHeader {
+    font-size: 2rem;
+  }
+  
+  .my-story-categoryStories {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 40px;
+  }
+  
+  .my-story-seemoreBtn {
+    background-color: var(--primary-color);
+  }
+  
+  .my-story-noStories {
+    height: 42rem;
+    width: 100%;
+    background-color: azure;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+  }
+  
+  .my-story-addStoryBtn {
+    background-color: var(--primary-color);
+  }
+  
+  @media (min-width: 577px) and (max-width: 992px) {
+    .my-story-categoryStories {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .my-story-categoryContainer {
+      margin-top: 0;
+    }
+    .my-story-categoryStories {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 0 20px;
+    }
+    .my-story-categoryHeader {
+      margin: 25px 0;
+    }
+  }

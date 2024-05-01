@@ -1,0 +1,91 @@
+.add-story-slideContainer {
+  width: 95%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-bottom: 20px;
+}
+
+.add-story-slideNumber,
+.add-story-addSlide {
+  position: relative;
+  width: 100%;
+  min-height: 65px;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+  font-weight: 700;
+  box-shadow: 0px 4px 15px 0px #0000001a;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.add-story-modalCloseIcon {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  scale: 0.5;
+  cursor: pointer;
+}
+
+.add-story-formContainer {
+  width: 100%;
+  font-weight: 700;
+}
+
+.add-story-formContainer div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.add-story-formContainer label {
+  width: 100px;
+  font-size: 1.2rem;
+}
+
+.add-story-formContainer input,
+.add-story-formContainer select,
+.add-story-formContainer textarea {
+  padding: 10px;
+  width: 250px;
+  color: #8e8e8e;
+  font-weight: 700;
+  border: 2px solid #8e8e8e;
+}
+
+.add-story-btnContainer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.add-story-leftBtnContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.add-story-prevBtn {
+  background-color: #7eff73;
+}
+
+.add-story-nextBtn {
+  background-color: var(--secondary-color);
+}
+
+.add-story-postBtn {
+  background-color: var(--primary-color);
+}
+
+.add-story-error {
+  color: red;
+  font-size: 1rem;
+  font-weight: 700;
+}
