@@ -86,9 +86,6 @@ const SignInModal = () => {
             <div>
               <button onClick={handleSubmit}>Login</button>
             </div>
-            {/* {isProcessing && (
-              <div className='formHeader'>Processing...</div>
-            )} */}
           </form>
         </>
       )}

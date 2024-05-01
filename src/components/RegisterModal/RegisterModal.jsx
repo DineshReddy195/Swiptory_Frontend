@@ -90,9 +90,6 @@ const RegisterModal = () => {
               <div>
                 <button onClick={handleSubmit}>Register</button>
               </div>
-              {/* {isProcessing && (
-                <div className='formHeader'>Processing...</div>
-              )} */}
             </form>
           </>
         )}
